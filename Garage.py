@@ -79,6 +79,9 @@ while OnOff:
             print(f'Your fee of ${currentTicket.space[1][1]} can be paid upon redemption of your Parking Ticket.')
     elif choice == 2:
         currentTicket.payForParking()
+    elif choice == 3:
+        print("Good day.")
+        OnOff = False
         
 
 
